@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+* {
+	margin: 0em;
+	padding: 0em;
+	box-sizing: border-box;
+	color: black;
+	list-style: none;
+	text-decoration: none;
+	font-family: "JetBrains Mono", monospace;
+}
+
+.container {
+	margin: auto;
+	max-width: 80%;
+	background-color: #9970df;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.contador__container {
+	padding: 25px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.display {
+	font-size: 70px;
+}
+
+.botones {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	height: 30px;
+	width: 30px;
+	border: none;
+	background-color: rgb(48, 207, 48);
+	color: white;
+	border-radius: 0.25em;
+}
+
+.botones button:first-child {
+	background-color: #aff8d8(59, 59, 255);
+}
+
+.botones button:last-child {
+	background-color:#aff8d8 (255, 59, 59);
+}
+
+#reset {
+	width: 50%;
+}
+
+button {
+	padding: 30px 26 px;
+	outline: none;
+	border-radius: 20px;
+	cursor: pointer;
+	border-right: 1px solid #aa89fd;
+	background: #9970fd;
+	font-family: sans-serif;
+}
+
+
+
+.contador__container > div {
+	width: 100%;
+	padding: 25px;
+	border-radius: 0.5em;
+	background-color: rgb(234, 234, 234);
+	background: linear-gradient(145deg, #afcbff, #f0f0f0);
+	box-shadow: 20px 20px 60px #aff8d8, -20px -20px 60px #ffffff;
+}
+
+.contador__container div:first-child {
+	display: flex;
+	justify-content: center;
+}
+
+.contador__container div:nth-child(3) {
+	background-color: red;
+}
+
+.contador__container div {
+	background-color: red;
+}
+
+/* Selectores de etiqueta -> body */
+/* Selectores de clase -> .body */
+/* Selectores de id -> #body */
+/* Selectores hijo -> body > header */
+/* Selectores de anidado -> body div */
+/* Selectores de first-child -> body div:first-child */
+/* Selectores de nth-child -> body:nth-child(1) */
